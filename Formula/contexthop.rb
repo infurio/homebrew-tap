@@ -15,6 +15,6 @@ class Contexthop < Formula
 
   test do
     assert_equal "contexthop #{version}", shell_output("#{bin}/chop version").strip
-    assert_match "Usage:", shell_output("#{bin}/chop help")
+    assert_match "chop <command> [options]", shell_output("#{bin}/chop help")
   end
 end
