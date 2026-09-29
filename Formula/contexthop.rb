@@ -1,12 +1,12 @@
 class Contexthop < Formula
   desc "Isolated terminal contexts for Google Cloud, Kubernetes, and Docker"
   homepage "https://github.com/infurio/contexthop"
-  version "0.7.7"
+  version "0.8.0"
   license "MIT"
   depends_on :macos
   depends_on arch: :arm64
-  url "https://github.com/infurio/homebrew-tap/releases/download/v0.7.7/contexthop_0.7.7_darwin_arm64.tar.gz"
-  sha256 "be61163cc4bfb6be2b8b69235e3b520dc2e7a3b834a716c7465a8c059a2cf69f"
+  url "https://github.com/infurio/homebrew-tap/releases/download/v0.8.0/contexthop_0.8.0_darwin_arm64.tar.gz"
+  sha256 "e78ad41757340b4409e9c314d9baf34e3ff09ad78e69eeba285d1b3ddf4cefec"
 
   def install
     bin.install "chop"
